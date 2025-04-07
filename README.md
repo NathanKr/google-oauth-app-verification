@@ -10,8 +10,6 @@
 required for post2output for better UI expereince and more quota chance
 
 
-
-
 <h2>Design</h2>
 Questions
 
@@ -20,9 +18,27 @@ check <a href='https://support.google.com/cloud/answer/13464323/?sjid=1007111641
 
 In my case i want more than 100 users so it violate 'Personal Use apps'
 
+
+<h2>verification process</h2>
+
+<h3>branding</h3>
+the app logo requirements are shown in this image
+my logo is <a href='https://github.com/NathanKr/post2youtube-website-private/blob/main/public/images/post2youtube_logo_120x120.png'>here</a>
+
+The app logo requirements appear in this image
+
+<img src='./figs/app-logo-requirements.png'/>
+
+<h3>privecy policy</h3>
+
+The privacy policy appears here
+
+<img src='./figs/privacy-policy.png'/>
+
 <h2>Open issues</h2>
 <ul>
     <li>why i get verification not needed ? <img src='./figs/verification-not-needed.png'/></li>
+    <li>logo size</li>
    
 </ul>
 
@@ -45,6 +61,8 @@ In my case i want more than 100 users so it violate 'Personal Use apps'
 <h2>References</h2>
 <ul>
     <li><a href='https://support.google.com/cloud/answer/13463073?hl=en'>official docs</a></li>
-   
+    <li><a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=7676787867668491552-EU'>verification requirement</a></li>
+    <li><a href='https://support.google.com/cloud/answer/15549049?hl=en'>app branding</a></li>
+    
 </ul>
 
