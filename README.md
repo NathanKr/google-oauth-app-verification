@@ -35,10 +35,12 @@ The privacy policy appears here
 
 But what i did was to provide gemini <a href='https://www.post2youtube.com'>my app landing page</a> and ask him what to do using Q & A session.
 
-check 
+check <a href='./figs/post2youtube.com.png'>landing page</a>
 
 and the target appears in <a href='https://www.post2youtube.com/privacy-policy'>my app privacy-policy</a>
 
+
+check <a href='./figs/post2youtube-privacy-policy.com.png'>privacy-policy</a>
 
 <h3>verifiy domain ownership</h3>
 <a href='https://support.google.com/webmasters/answer/9008080?sjid=6673206062964333071-EU'>here</a></li>
