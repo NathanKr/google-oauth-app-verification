@@ -70,40 +70,34 @@ This project show my experince in the process of Google OAuth App Verification o
 
   <p>Always consult the <strong>Google Cloud Console's OAuth consent screen settings</strong> for your specific project to determine the exact verification requirements.</p>
 
-<h2>Motivation for me</h2>
+<h2>Motivation for Me</h2>
 Required for post2youtube for better UI expereince and more quota chance. 
 In my case i want more than 100 users so it violate 'Personal Use apps'
 
-<h2>Important verification steps</h2>
+<h2>Important Verification Steps</h2>
 
 The verification process require inputs which you set in your google cloud project. some of this is in the branning tab as shown in the image
 
 <img src='./figs/verification-process.png' alt='Google Cloud Console - Branding Tab'/>
 
-<h3>Step 1 : branding</h3>
+<h3>Step 1 : Branding</h3>
 The app logo requirements appear in this image
 
 <img src='./figs/app-logo-requirements.png' alt='Google Cloud Console - App Logo Requirements'/>
 
 I have used chatgpt to create the logo
 
+<h3>Step 2 : Privacy Policy</h3>
 
-<h3>Step 2 : privecy policy</h3>
-
-The privacy policy appears here
+The Google Cloud Console requires a privacy policy, as seen here:
 
 <img src='./figs/privacy-policy.png' alt='Google Cloud Console - Privacy Policy Section'/>
 
-But what i did was to provide gemini <a href='https://www.post2youtube.com'>my app landing page</a> and ask him what to do using Q & A session.
+To create this, I provided the content from my app's landing page (<a href='https://www.post2youtube.com'>my app landing page</a>) to Gemini and used a Q&A session to develop the necessary text.
 
+My landing page is shown here: <a href='./figs/post2youtube.com.png'>landing page</a>, and the resulting privacy policy I implemented is visible in this screenshot: <a href='./figs/post2youtube-privacy-policy.com.png'>privacy-policy</a>.
 
-check the following image <a href='./figs/post2youtube.com.png'>landing page</a>
-
-and the target appears in <a href='https://www.post2youtube.com/privacy-policy'>my app privacy-policy</a>
-
-check the following image <a href='./figs/post2youtube-privacy-policy.com.png'>privacy-policy</a>
-
-<h3>Step 3 : verifiy domain ownership</h3>
+<h3>Step 3 : Verifiy Domain Wwnership</h3>
 <a href='https://support.google.com/webmasters/answer/9008080?sjid=6673206062964333071-EU'>This is the official docs</a></li>
 
 You can choose any option out of 7 as shown in this image
@@ -115,14 +109,13 @@ google cloud console side <img  src='./figs/verify-google-side.png' alt='Google 
 
 domain provider side (nameschaep) <img  src='./figs/verify-namecheap-side.png' alt='Namecheap DNS settings for domain verification'/>
 
-back to google clicked verify after few minutes <img src='./figs/google-verified.png' alt='Google Cloud Console - Domain ownership verified message'/> 
+back to google clicked verify after few minutes <img src='./figs/google-verified.png' alt='Google Cloud Console - Domain ownership verified message'/>
 
 <h4>post2youtube.online - option 1 'HTML file upload' </h4>
 I was not able to use here option 7 because i was not able to add record in namecheap so i chosen option 1
 
 Select property type as shown in in the following image
 <img src='./figs/post2youtube.online-choose-property-type.png' alt='Google Search Console - Selecting property type for post2youtube.online'/>
-
 
 Download the file as show in the following image
 <img src='./figs/post2youtube.online-verify-ownership.png' alt='Google Search Console - Downloading the HTML verification file'/>
@@ -131,13 +124,13 @@ Put it in you app public and click the verify button
 The verification appears in the follwoing image
 <img src='./figs/post2youtube.online-ownership-verified.png' alt='Google Search Console - Ownership verified message for post2youtube.online'/>
 
-<h3>Step 4 : create a video</h3>
+<h3>Step 4 : Create a Video</h3>
 scroll down <a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=2157921980951485823-EU#'>here</a> or check the following image 
 <img src='./figs/demo-video.png' alt='Google Cloud Console - Instructions for creating a demonstration video'/>
 
 <h2>Points of Interest</h2>
 <ul>
-    <li>why i get verification not needed ? <img src='./figs/verification-not-needed.png' alt='Google Cloud Console - Verification not needed status'/> : in my case it was still in testing.  the "Verification not needed" status you currently see in your Google OAuth Console will likely disappear or change when you attempt to publish your application</li>
+<li>Why i get "Verification not required"? <img src='./figs/verification-not-needed.png' alt='Google Cloud Console - Verification not needed status'/> : This status likely appears because your application is currently in the "Testing" publishing status in the Google Cloud Console. It will likely change to require verification once you switch to the "In Production" status.</li>
 </ul>
 
 <h2>References</h2>
