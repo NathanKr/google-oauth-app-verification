@@ -1,6 +1,5 @@
 <h1>Project Name</h1>
-My Experience with Google OAuth App Verification
-
+Preparing for Google OAuth App Verification (My Experience with post2youtube.com)
 
 <h2>Project Description</h2>
 This project documents my experience with the Google OAuth App Verification process for www.post2youtube.com
@@ -71,11 +70,12 @@ This project documents my experience with the Google OAuth App Verification proc
 
   <p>Always consult the <strong>Google Cloud Console's OAuth consent screen settings</strong> for your specific project to determine the exact verification requirements.</p>
 
-<h2>Motivation for Me</h2>
-I needed verification for Post2YouTube to provide a smoother user experience, remove the "Unverified app" warning, and potentially access higher quota limit
-In my case, I want to support more than 100 users, which disqualifies it from being considered a "Personal Use App"
+<h2>My Motivation</h2>
+I needed verification for Post2YouTube to provide a smoother user experience, remove the "Unverified app" warning, and potentially access a higher quota limit.  
+In my case, I want to support more than 100 users, which disqualifies it from being considered a "Personal Use App".
 
-<h2>Important Verification Steps</h2>
+
+<h2>Key Verification Steps</h2>
 The verification process requires inputs that you configure in your Google Cloud project. Some of these are set in the Branding tab, as shown in the image
 
 
@@ -94,11 +94,11 @@ The Google Cloud Console requires a privacy policy, as seen here:
 
 <img src='./figs/privacy-policy.png' alt='Google Cloud Console - Privacy Policy Section'/>
 
-To create this, I provided the content from my app's landing page (<a href='https://www.post2youtube.com'>my app landing page</a>) to Gemini and used a Q&A session to develop the necessary text.
+To create this, I provided the content from my app's landing page (<a href='https://www.post2youtube.com'>my app landing page</a>) to Gemini and used a Q&A session draft the privacy policy text.
 
 My landing page is shown here: <a href='./figs/post2youtube.com.png'>landing page</a>, and the resulting privacy policy I implemented is visible in this screenshot: <a href='./figs/post2youtube-privacy-policy.com.png'>privacy-policy</a>.
 
-<h3>Step 3 : Verifiy Domain Ownership</h3>
+<h3>Step 3 : Verify Domain Ownership</h3>
 <a href='https://support.google.com/webmasters/answer/9008080?sjid=6673206062964333071-EU'>This is the official docs</a></li>
 
 You can choose any option out of 7 as shown in this image
@@ -108,15 +108,15 @@ You can choose any option out of 7 as shown in this image
 
 Google Cloud Console side <img  src='./figs/verify-google-side.png' alt='Google Cloud Console - Domain verification instructions'/>
 
-domain provider side (Nameschaep) <img  src='./figs/verify-namecheap-side.png' alt='Namecheap DNS settings for domain verification'/>
+domain provider side (Namecheap) <img  src='./figs/verify-namecheap-side.png' alt='Namecheap DNS settings for domain verification'/>
 
-back to google clicked verify after few minutes <img src='./figs/google-verified.png' alt='Google Cloud Console - Domain ownership verified message'/>
+back to google clicked "Verify" after few minutes <img src='./figs/google-verified.png' alt='Google Cloud Console - Domain ownership verified message'/>
 
 <h4>post2youtube.online - option 1 'HTML file upload' </h4>
-I couldn't use Option 7 here because I was unable to add a DNS record in Namecheap, so I chose Option 1 instead
+I couldn't use Option 7 here because Namecheap didn’t allow me to add a DNS record, so I used Option 1 instead
 
 
-Select property type as shown in in the following image
+Select property type as shown in the following image
 <img src='./figs/post2youtube.online-choose-property-type.png' alt='Google Search Console - Selecting property type for post2youtube.online'/>
 
 Download the file as show in the following image
@@ -126,8 +126,8 @@ Download the file as show in the following image
 The verification appears in the following image
 <img src='./figs/post2youtube.online-ownership-verified.png' alt='Google Search Console - Ownership verified message for post2youtube.online'/>
 
-<h3>Step 4 : Create a Video</h3>
-scroll down <a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=2157921980951485823-EU#'>here</a> or refer to the image below 
+<h3>Step 4 : Create a Demonstration Video</h3>
+Scroll down <a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=2157921980951485823-EU#'>here</a> or refer to the image below 
 <img src='./figs/demo-video.png' alt='Google Cloud Console - Instructions for creating a demonstration video'/>
 
 <h2>Points of Interest</h2>
