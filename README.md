@@ -78,12 +78,12 @@ In my case i want more than 100 users so it violate 'Personal Use apps'
 
 The verification process require inputs which you set in your google cloud project. some of this is in the branning tab as shown in the image
 
-<img src='./figs/verification-process.png'/>
+<img src='./figs/verification-process.png' alt='Google Cloud Console - Branding Tab'/>
 
 <h3>Step 1 : branding</h3>
 The app logo requirements appear in this image
 
-<img src='./figs/app-logo-requirements.png'/>
+<img src='./figs/app-logo-requirements.png' alt='Google Cloud Console - App Logo Requirements'/>
 
 I have used chatgpt to create the logo
 
@@ -92,9 +92,10 @@ I have used chatgpt to create the logo
 
 The privacy policy appears here
 
-<img src='./figs/privacy-policy.png'/>
+<img src='./figs/privacy-policy.png' alt='Google Cloud Console - Privacy Policy Section'/>
 
 But what i did was to provide gemini <a href='https://www.post2youtube.com'>my app landing page</a> and ask him what to do using Q & A session.
+
 
 check the following image <a href='./figs/post2youtube.com.png'>landing page</a>
 
@@ -106,37 +107,37 @@ check the following image <a href='./figs/post2youtube-privacy-policy.com.png'>p
 <a href='https://support.google.com/webmasters/answer/9008080?sjid=6673206062964333071-EU'>This is the official docs</a></li>
 
 You can choose any option out of 7 as shown in this image
-<img src='./figs/7-domain-verification-options.png'/>
+<img src='./figs/7-domain-verification-options.png' alt='Google Search Console - Seven options for domain verification'/>
 
 <h4>post2youtube.com - option 7 'Domain name provider'</h4>
 
-google cloud console side <img  src='./figs/verify-google-side.png'/>
+google cloud console side <img  src='./figs/verify-google-side.png' alt='Google Cloud Console - Domain verification instructions'/>
 
-domain provider side (nameschaep) <img  src='./figs/verify-namecheap-side.png'/>
+domain provider side (nameschaep) <img  src='./figs/verify-namecheap-side.png' alt='Namecheap DNS settings for domain verification'/>
 
-back to google clicked verify after few minutes <img src='./figs/google-verified.png'/>
+back to google clicked verify after few minutes <img src='./figs/google-verified.png' alt='Google Cloud Console - Domain ownership verified message'/> 
 
 <h4>post2youtube.online - option 1 'HTML file upload' </h4>
 I was not able to use here option 7 because i was not able to add record in namecheap so i chosen option 1
 
 Select property type as shown in in the following image
-<img src='./figs/post2youtube.online-choose-property-type.png'/>
+<img src='./figs/post2youtube.online-choose-property-type.png' alt='Google Search Console - Selecting property type for post2youtube.online'/>
 
 
 Download the file as show in the following image
-<img src='./figs/post2youtube.online-verify-ownership.png'/>
+<img src='./figs/post2youtube.online-verify-ownership.png' alt='Google Search Console - Downloading the HTML verification file'/>
 
 Put it in you app public and click the verify button
 The verification appears in the follwoing image
-
-<img src='./figs/post2youtube.online-ownership-verified.png'/>
+<img src='./figs/post2youtube.online-ownership-verified.png' alt='Google Search Console - Ownership verified message for post2youtube.online'/>
 
 <h3>Step 4 : create a video</h3>
-scroll down <a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=2157921980951485823-EU#'>here</a> or check the following image <img src='./figs/demo-video.png'/>
+scroll down <a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=2157921980951485823-EU#'>here</a> or check the following image 
+<img src='./figs/demo-video.png' alt='Google Cloud Console - Instructions for creating a demonstration video'/>
 
 <h2>Points of Interest</h2>
 <ul>
-    <li>why i get verification not needed ? <img src='./figs/verification-not-needed.png'/> : in my case it was still in testing.  the "Verification not needed" status you currently see in your Google OAuth Console will likely disappear or change when you attempt to publish your application</li>
+    <li>why i get verification not needed ? <img src='./figs/verification-not-needed.png' alt='Google Cloud Console - Verification not needed status'/> : in my case it was still in testing.  the "Verification not needed" status you currently see in your Google OAuth Console will likely disappear or change when you attempt to publish your application</li>
 </ul>
 
 <h2>References</h2>
