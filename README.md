@@ -1,14 +1,12 @@
-
 <h1>Project Name</h1>
 my experience with Google OAuth App Verification
 
 <h2>Project Description</h2>
-This project show my experince in the process of Google OAuth App Verification of my www.post2youtube.com 
-
+This project show my experince in the process of Google OAuth App Verification of my www.post2youtube.com
 
   <h2>What is Google OAuth App Verification?</h2>
 
-  <p>Google OAuth App Verification is a process mandated by Google for third-party applications that use Google's OAuth 2.0 authorization system to access Google user data. The primary goals are to ensure the <strong>safety and trustworthiness</strong> of these applications and to protect users and their data.</p>
+  <p>Google OAuth App Verification is a process Google officially requires for third-party applications that use Google's OAuth 2.0 authorization system to access Google user data. The primary goals are to ensure the <strong>safety and trustworthiness</strong> of these applications and to protect users and their data.</p>
 
   <p>During verification, Google reviews the application's:</p>
   <ul>
@@ -16,7 +14,8 @@ This project show my experince in the process of Google OAuth App Verification o
     <li><strong>Requested Scopes:</strong> Verifying the necessity and explanation of requested permissions.</li>
     <li><strong>Privacy Policy:</strong> Confirming a clear and comprehensive data usage disclosure.</li>
     <li><strong>Website and Domain Ownership:</strong> Validating the legitimacy of the associated website.</li>
-    <li><strong>Demonstration of Functionality (in some cases):</strong> Reviewing a video showcasing the use of sensitive scopes.</li>
+    <li><strong>Demonstration of Functionality:</strong> If sensitive scopes are requested, 
+    Google requires a video demonstrating their use for review.</li>
   </ul>
 
   <p>The benefits of verification include increased user trust, reduced risk of malicious apps, enhanced transparency, and removal of the "Unverified app" warning screen.</p>
@@ -28,7 +27,7 @@ This project show my experince in the process of Google OAuth App Verification o
   <ul>
     <li>
       <h3>Accessing Sensitive or Restricted Scopes</h3>
-      <p>If your application requests access to Google API scopes categorized as <strong>sensitive</strong> (e.g., email, calendar, contacts) or <strong>restricted</strong> (granting broad data access), verification is <strong>mandatory</strong>. The Google Cloud Console indicates the scope category.</p>
+      <p>If your application requests access to Google API scopes categorized as <strong>sensitive</strong> (e.g., email, calendar, contacts) or <strong>restricted</strong> (granting broad data access e.g. upload video to youtube), verification is <strong>mandatory</strong>. The Google Cloud Console indicates the scope category.</p>
     </li>
     <li>
       <h3>Displaying Brand Information for External Users</h3>
@@ -71,25 +70,25 @@ This project show my experince in the process of Google OAuth App Verification o
 
   <p>Always consult the <strong>Google Cloud Console's OAuth consent screen settings</strong> for your specific project to determine the exact verification requirements.</p>
 
-
 <h2>Motivation for me</h2>
-required for post2youtube for better UI expereince and more quota chance
+Required for post2youtube for better UI expereince and more quota chance. 
 In my case i want more than 100 users so it violate 'Personal Use apps'
 
+<h2>Important verification steps</h2>
 
-<h2>important verification steps</h2>
+The verification process require inputs which you set in your google cloud project. some of this is in the branning tab as shown in the image
 
-<h3>step 1 : branding</h3>
-the app logo requirements are shown in this image
-my logo is <a href='https://github.com/NathanKr/post2youtube-website-private/blob/main/public/images/post2youtube_logo_120x120.png'>here</a>
+<img src='./figs/verification-process.png'/>
 
+<h3>Step 1 : branding</h3>
 The app logo requirements appear in this image
 
 <img src='./figs/app-logo-requirements.png'/>
 
 I have used chatgpt to create the logo
 
-<h3>step 2 : privecy policy</h3>
+
+<h3>Step 2 : privecy policy</h3>
 
 The privacy policy appears here
 
@@ -97,20 +96,19 @@ The privacy policy appears here
 
 But what i did was to provide gemini <a href='https://www.post2youtube.com'>my app landing page</a> and ask him what to do using Q & A session.
 
-check <a href='./figs/post2youtube.com.png'>landing page</a>
+check the following image <a href='./figs/post2youtube.com.png'>landing page</a>
 
 and the target appears in <a href='https://www.post2youtube.com/privacy-policy'>my app privacy-policy</a>
 
+check the following image <a href='./figs/post2youtube-privacy-policy.com.png'>privacy-policy</a>
 
-check <a href='./figs/post2youtube-privacy-policy.com.png'>privacy-policy</a>
+<h3>Step 3 : verifiy domain ownership</h3>
+<a href='https://support.google.com/webmasters/answer/9008080?sjid=6673206062964333071-EU'>This is the official docs</a></li>
 
-<h3>step 3 : verifiy domain ownership</h3>
-<a href='https://support.google.com/webmasters/answer/9008080?sjid=6673206062964333071-EU'>here</a></li>
-
-You can choose any option out of 7 as shown in this image 
+You can choose any option out of 7 as shown in this image
 <img src='./figs/7-domain-verification-options.png'/>
 
-<h4>post2youtube.com</h4>
+<h4>post2youtube.com - option 7 'Domain name provider'</h4>
 
 google cloud console side <img  src='./figs/verify-google-side.png'/>
 
@@ -118,16 +116,23 @@ domain provider side (nameschaep) <img  src='./figs/verify-namecheap-side.png'/>
 
 back to google clicked verify after few minutes <img src='./figs/google-verified.png'/>
 
-<h4>post2youtube.online</h4>
-I was not able to do this using namecheap because i was not able to add record
+<h4>post2youtube.online - option 1 'HTML file upload' </h4>
+I was not able to use here option 7 because i was not able to add record in namecheap so i chosen option 1
 
-<h3>step 4 : create a video</h3>
-scroll down <a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=2157921980951485823-EU#'>here</a>
-
-check <img src='./figs/demo-video.png'/>
+Select property type as shown in in the following image
+<img src='./figs/post2youtube.online-choose-property-type.png'/>
 
 
+Download the file as show in the following image
+<img src='./figs/post2youtube.online-verify-ownership.png'/>
 
+Put it in you app public and click the verify button
+The verification appears in the follwoing image
+
+<img src='./figs/post2youtube.online-ownership-verified.png'/>
+
+<h3>Step 4 : create a video</h3>
+scroll down <a href='https://support.google.com/cloud/answer/13464321?hl=en&ref_topic=13460882&sjid=2157921980951485823-EU#'>here</a> or check the following image <img src='./figs/demo-video.png'/>
 
 <h2>Points of Interest</h2>
 <ul>
